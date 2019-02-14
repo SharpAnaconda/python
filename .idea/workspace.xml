@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a3c24e0-123d-4bc1-aa0f-152530ecdb29" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first_cost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cost.py" />
+        <option value="$PROJECT_DIR$/selenium_sample.py" />
+        <option value="$PROJECT_DIR$/syuzen.py" />
+        <option value="$PROJECT_DIR$/analysis.py" />
+        <option value="$PROJECT_DIR$/target_item_names_picup.py" />
+        <option value="$PROJECT_DIR$/gcm_item_picup.py" />
+        <option value="$PROJECT_DIR$/excel_cell_find.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\s138093\PycharmProjects\untitled" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.first_cost">
+    <configuration name="excel_cell_find" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excel_cell_find.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first_cost" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_cost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="target_item_names_picup" type="PythonConfigurationType" factoryName="Python">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/target_item_names_picup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.first_cost" />
+        <item itemvalue="Python.excel_cell_find" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\s138093\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a3c24e0-123d-4bc1-aa0f-152530ecdb29" name="Default Changelist" comment="" />
+      <created>1533195712837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533195712837</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1293" height="697" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19809069" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34511784" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13490725" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32659933" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.52595156" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15078408" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3452381" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13490725" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3281075" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.52595156" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/tkinter/__init__.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/tkinter/filedialog.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/ntpath.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/openpyxl/worksheet/worksheet.py" />
+    <entry file="file://$PROJECT_DIR$/selenium_sample.py" />
+    <entry file="file://$PROJECT_DIR$/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/tools/Anaconda3/Lib/tkinter/__init__.py" />
+    <entry file="file://C:/tools/Anaconda3/Lib/site-packages/openpyxl/__init__.py" />
+    <entry file="file://C:/tools/Anaconda3/Lib/site-packages/xlrd/book.py" />
+    <entry file="file://C:/tools/Anaconda3/Lib/site-packages/xlrd/sheet.py" />
+    <entry file="file://$PROJECT_DIR$/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1667285395/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/gcm_item_picup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excel_cell_find.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target_item_names_picup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
