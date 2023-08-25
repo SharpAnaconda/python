@@ -1,0 +1,44 @@
+import os
+import fitz
+
+# 画像を保存する関数
+def save_image(image_bytes, output_path):
+    with open(output_path, "wb") as f:
+        f.write(image_bytes)
+
+source_root = r""
+destination_root = r""
+
+for root, dirs, files in os.walk(source_root):
+    for file in files:
+        if file.endswith(".pdf"):
+            pdf_path = os.path.abspath(os.path.join(root, file))  # Get absolute path
+
+            try:
+                doc = fitz.open(pdf_path)
+            except fitz.fitz.FileDataError:
+                print(f"Skipped: {pdf_path} (Broken PDF)")
+                continue
+            except FileNotFoundError:
+                print(f"Skipped: {pdf_path} (File not found)")
+                continue
+
+            pdf_filename = os.path.splitext(file)[0]
+            subfolder_path = os.path.join(destination_root, root[len(source_root) + 1:], pdf_filename)
+            os.makedirs(subfolder_path, exist_ok=True)
+
+            for page_num in range(doc.page_count):
+                page = doc.load_page(page_num)
+                images = page.get_images(full=True)
+                for img_index, img_info in enumerate(images):
+                    xref = img_info[0]
+                    base_image = doc.extract_image(xref)
+                    image_data = base_image["image"]
+
+                    # Save the image data as a PNG file
+                    output_image_path = os.path.join(subfolder_path, f"page_{page_num + 1}_img_{img_index + 1}.png")
+                    save_image(image_data, output_image_path)
+
+                    print(f"Page {page_num + 1} image {img_index + 1} saved to {output_image_path}")
+
+            doc.close()

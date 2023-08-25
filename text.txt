@@ -1,0 +1,45 @@
+import os
+import fitz
+
+
+# PDFをテキストに変換する関数
+def convert_pdf_to_text(pdf_path):
+    try:
+        doc = fitz.open(pdf_path)
+        page_texts = []
+        for page_num in range(doc.page_count):
+            page = doc.load_page(page_num)
+            text = page.get_text("text")
+            page_texts.append(text)
+        doc.close()
+        return page_texts
+    except (fitz.fitz.FileDataError, fitz.fitz.FileNotFoundError) as e:
+        print(f"Error processing {pdf_path}: {e}")
+        return None
+
+
+# 元の特定のフォルダを再帰的に探索
+source_root = fr""
+
+# 保存先のルートフォルダを指定
+destination_root = fr""
+
+for root, dirs, files in os.walk(source_root):
+    for file in files:
+        if file.endswith(".pdf"):  # PDFファイルを見つけた場合
+            pdf_path = os.path.join(root, file)
+            text_list = convert_pdf_to_text(pdf_path)
+
+            if text_list is not None:
+                # サブフォルダを作成
+                pdf_filename = os.path.splitext(file)[0]  # 拡張子を除いたファイル名
+                subfolder_path = os.path.join(destination_root, root[len(source_root) + 1:], pdf_filename)
+                os.makedirs(subfolder_path, exist_ok=True)
+
+                # テキストをサブフォルダ内のテキストファイルとして保存
+                for page_num, text in enumerate(text_list):
+                    output_file = os.path.join(subfolder_path, f"page_{page_num + 1}.txt")
+                    with open(output_file, "w", encoding="utf-8") as f:
+                        f.write(text)
+
+                    print(f"Page {page_num + 1} text saved to {output_file}")
